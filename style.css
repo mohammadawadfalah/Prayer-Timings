@@ -105,8 +105,9 @@ select option:checked {
 }   
 p {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     opacity: 0.5;
     border-bottom: white solid 2px;
@@ -115,4 +116,9 @@ p {
 p a {
     color: darkkhaki;
     text-decoration: none;
+}
+@media (max-width: 600px) {
+    p {
+    font-size: 10px;
+    }
 }
