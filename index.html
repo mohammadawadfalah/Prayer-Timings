@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" style="direction : rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Timings</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>By : Mohammad Awad Falah / Instagram : <a href="https://www.instagram.com/sa.dp1" target="_blank">sa.dp1</a></p>
+        <div class="head">
+            <h1>مواقيت الصلاه حسب مدينة</h1>
+            <h2 id="conitry">عمان</h2>
+            <h4 id="date">10/10/2024</h4>
+        </div>
+        <h3 class="title">اخترا المدينة لمعرفة مواقيت الصلاة فيها</h3>
+        <select id="s_conitry">
+            <option value="Amman" onclick="Amman()">عمان</option>
+            <option value="Jerash">جرش</option>
+            <option value="Zarqa">الزرقاء</option>
+            <option value="Irbid">إربد</option>
+            <option value="Aqaba">العقبة </option>
+            <option value="Madaba">مادبا</option>
+            <option value="Ma'an">معان</option>
+            <option value="al-Karak">الكرك</option>
+            <option value="ar-Rusaifa">الرصيفة</option>
+            <option value="as-Salt">السلط </option>
+        </select>
+        <div class="center">
+            <table>
+                <tr>
+                    <th>الصلاة</th>
+                    <th>الوقت</th>
+                    <th>اليوم</th>
+                </tr>
+                <tbody id="Prayers">
+                    <tr>
+                        <td>
+                            Erroe in API
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
